@@ -45,6 +45,7 @@ namespace UnitTestSinglyLinkedLists
             SinglyLinkedList list = new SinglyLinkedList();
             list.AddLast("foo");
             list.AddLast("bar");
+
             Assert.AreEqual("foo", list.ElementAt(0));
         }
 
