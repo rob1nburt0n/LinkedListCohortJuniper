@@ -87,7 +87,7 @@ namespace UnitTestSinglyLinkedLists
             list.AddLast("foo");
             list.AddLast("bar");
             list.AddLast("grille");
-            list.ElementAt(-2);
+            Assert.AreEqual("bar", list.ElementAt(-2));
         }
         
         [TestMethod]
